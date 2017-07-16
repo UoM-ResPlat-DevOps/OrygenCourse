@@ -1,16 +1,17 @@
 # Orygen Course
 An four hour training course that provides an introduction to the Spartan HPC/Cloud hybrid for the Orygen National Centre of Excellence in Youth Mental Health (`https://www.orygen.org.au/`).
 
-##Git
+## Git
 
 If you check this repository out be aware that it uses Git submodules to manage the reveal.js dependency. To also checkout reveal.js, you will have to either:
 
 **Fetch it all in one hit**
+
 `git clone --recursive https://github.com/UoM-ResPlat-DevOps/OrygenCourse`
 
-Or:
 
 **Take it step by step**
+
 `git clone https://github.com/UoM-ResPlat-DevOps/OrygenCourse`
 `git submodule init`
 `git submodule update`
@@ -37,7 +38,7 @@ You should see something like the following fly by:
 `Writing to: ./Presentation/Lesson_1.html`
 `Writing to: ./Presentation/index.html`
 
-##Folders
+## Folders
 
 The directories that make up this project are as follows:
 
