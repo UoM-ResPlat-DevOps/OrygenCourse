@@ -12,8 +12,8 @@ If you check this repository out be aware that it uses Git submodules to manage 
 
 **Take it step by step**
 
-`git clone https://github.com/UoM-ResPlat-DevOps/OrygenCourse`
-`git submodule init`
+`git clone https://github.com/UoM-ResPlat-DevOps/OrygenCourse`    
+`git submodule init`     
 `git submodule update`
 
 To regenerate the slides
