@@ -191,7 +191,9 @@ invoked and the resource requests altered e.g.,
 `#SBATCH ­­--ntasks-per-node=8`<br />
 `module load my­app­compiler/version`<br />
 `srun my­mpi­app`
+-- *Slide End* --
 
+-- *Slide* --
 ### Part 3 : Multinode Jobs II
 * Multinodes jobs should be run on the `physical` partition which has the higher interconnect speed.
 * Multinode jobs on Spartan may be slower if they have a lot of interprocess communication and they cross compute nodes.
